@@ -1,0 +1,65 @@
+@media screen and (min-width:768px) {
+
+  .main{
+    position: relative;
+    height: 180px;
+
+    &__logo{
+      position: absolute;
+      left: 45px;
+      top: 10px;
+    }
+
+    &__strap{
+      position: absolute;
+      right: 45px;
+      bottom: 10px;
+    }
+    & img{
+      width: 40%;
+    }
+  }
+
+  .profiles{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    justify-content: space-between;
+
+    &__card{
+      width: 45%;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .main{
+    position: relative;
+    height: 180px;
+
+    &__logo{
+      position: absolute;
+      left: 45px;
+      top: 10px;
+    }
+
+    &__strap{
+      position: absolute;
+      right: 45px;
+      bottom: 10px;
+    }
+    & img{
+      width: 30%;
+    }
+  }
+
+  .profiles{
+    display: flex;
+    flex-wrap: wrap;
+
+    &__card{
+      width: 30%;
+    }
+  }
+}
